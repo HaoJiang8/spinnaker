@@ -1,4 +1,25 @@
 version = 1
 
 [[analyzers]]
+name = "php"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/HaoJiang8/spinnaker"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
 name = "test-coverage"
